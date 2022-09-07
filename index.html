@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/icons/style.css" />
+
+    <title>Alan Critelli | Frontend Developer</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <div class="wrapper">
+          <a href="#"
+            ><img src="assets/img/logo.jpg " alt="logo Alan Critelli"
+          /></a>
+
+          <div class="menu">
+            <ul>
+              <li><a onclick="closeMenu()" href="#home">Inicio</a></li>
+              <li><a onclick="closeMenu()" href="#">Experiencias</a></li>
+              <li><a onclick="closeMenu()" href="#">Educação</a></li>
+              <li><a onclick="closeMenu()" href="#">Contato</a></li>
+            </ul>
+          </div>
+
+          <button
+            aria-expanded="false"
+            aria-label="Abrir menu"
+            onclick="openMenu()"
+            class="open-menu"
+          >
+            <i class="icon-menu"></i>
+          </button>
+          <button
+            aria-expanded="true"
+            aria-label="Fechar menu"
+            onclick="closeMenu()"
+            class="close-menu"
+          >
+            <i class="icon-x"></i>
+          </button>
+        </div>
+      </nav>
+
+      <main>
+        <section id="home">
+          <div class="wrapper">
+            <header>
+              <h4>Olá, eu sou o Alan 👋</h4>
+              <h1>Desenvolvedor Frontend</h1>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                cumque laborum hic, exercitationem maiores deleniti unde quaerat
+                nisi reiciendis ratione
+              </p>
+            </header>
+
+            <div class="content">
+              <img src="assets/img/Open Peeps - Bust.png" alt="" />
+            </div>
+          </div>
+        </section>
+      </main>
+    </header>
+
+    <script src="main.js"></script>
+  </body>
+</html>
