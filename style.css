@@ -245,6 +245,10 @@ body.menu-expanded .logo span {
   padding: 0.5rem;
 }
 
+.img-desktop {
+  display: none;
+}
+
 /*===============EDUCATION===============*/
 #education .card p {
   font-size: 1.6rem;
