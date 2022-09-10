@@ -182,10 +182,9 @@ body.menu-expanded .logo span {
   color: white;
 }
 
-/*===============HOME===============*/
-
 /*===============EXPERTISE===============*/
-#expertise header p {
+#expertise header p,
+#education header p {
   margin-block: 2rem;
 }
 
@@ -237,3 +236,20 @@ body.menu-expanded .logo span {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.extra {
+  text-transform: uppercase;
+  font-weight: 700;
+
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+/*===============EDUCATION===============*/
+#education .card p {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/*===============EDUCATION===============*/
