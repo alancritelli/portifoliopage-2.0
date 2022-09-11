@@ -300,7 +300,12 @@ footer p {
 
 footer i {
   font-size: 3rem;
-  margin-right: 1rem;
+  margin-right: 2rem;
+}
+
+footer .social {
+  margin-right: 2rem;
+
 }
 
 footer .social a {
