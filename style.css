@@ -256,4 +256,58 @@ body.menu-expanded .logo span {
   text-transform: uppercase;
 }
 
-/*===============EDUCATION===============*/
+/*===============CONTACT===============*/
+.contact-cards {
+  margin-top: 2rem;
+  align-content: center;
+}
+
+.contact-card {
+  display: flex;
+  justify-content: flex-start;
+
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  background: var(--primary-color);
+
+  border-radius: 2rem;
+  width: 55%;
+}
+
+.contact-card i {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+/*===============FOOTER===============*/
+footer {
+  background-color: var(--primary-color);
+
+  padding: 3rem;
+  text-align: left;
+}
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+footer i {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+footer .social a {
+  transition: 0.3s;
+  display: inline-block;
+}
+
+footer .social a:hover {
+  transform: translateY(-8px);
+}
