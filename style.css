@@ -311,3 +311,29 @@ footer .social a {
 footer .social a:hover {
   transform: translateY(-8px);
 }
+
+/*======== BACK TO TOP ========*/
+#backToTopButton {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 3rem;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(100%);
+  transition: 200ms;
+}
+
+#backToTopButton i {
+  font-size: 4.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 1rem;
+}
+
+#backToTopButton.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
